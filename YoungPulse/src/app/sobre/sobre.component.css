@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.conteudo{
+    min-height: 100%;
+    background-image: url(../../assets/img/natureza.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;   
+}
+
+.titulo h1{
+    font-family: 'Lobster', sans-serif;
+    text-decoration: overline;
+    color: rgb(18, 66, 60);
+    font-size: 2vw;
+}
+
+.paragrafo{
+    width: 80%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(6, 245, 233, 0.4);
+    box-shadow: 3px 3px 30px 1px rgba(123, 233, 227, 0.699);
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter :blur(12px);
+}
+
+.paragrafo p{
+    text-align: justify;
+    color: rgb(17, 17, 17);
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.retrato{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto{
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    border: px solid rgba(119, 5, 5, 0.7);
+}
+

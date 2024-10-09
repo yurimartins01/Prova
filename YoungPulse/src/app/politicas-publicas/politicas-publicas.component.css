@@ -1,0 +1,8 @@
+.retrato{
+    background-image: url(../../assets/img/politicasPublicas/politicas-publicas.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+    width: 50%;
+}
