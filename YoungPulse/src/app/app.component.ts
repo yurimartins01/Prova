@@ -16,9 +16,5 @@ export class AppComponent {
   getRouteAnimationData() {
     return this.contexts.getContext('primary')?.route?.snapshot?.data?.['animation'];
   }
-  divAtiva = false;
 
-  mobileMenu(){
-    this.divAtiva = !this.divAtiva;
-  }
 }

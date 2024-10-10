@@ -13,6 +13,7 @@ import { OrdemMundialComponent } from './ordem-mundial/ordem-mundial.component';
 import { CorrupcaoComponent } from './corrupcao/corrupcao.component';
 import { EstadoGovComponent } from './estado-gov/estado-gov.component';
 import { PoliticasPublicasComponent } from './politicas-publicas/politicas-publicas.component';
+import { NavegacaoComponent } from './navegacao/navegacao.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { PoliticasPublicasComponent } from './politicas-publicas/politicas-publi
     CorrupcaoComponent,
     EstadoGovComponent,
     PoliticasPublicasComponent,
+    NavegacaoComponent,
   ],
   imports: [
     BrowserModule,
